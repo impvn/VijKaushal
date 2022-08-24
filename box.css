@@ -1,0 +1,16 @@
+body{
+    /* background-image: url(HelloWorld.jpg); */
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 1px dashed lightcoral;
+    padding-left: 15px;
+    overflow-x:scroll;
+    height: 70px;
+    /* background-image: url(jbsd.webp); */
+}
+.header span{
+    display: flexbox;
+    height: auto;
+}

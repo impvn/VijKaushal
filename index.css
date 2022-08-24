@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.header-main {
+    background-color: rgb(165, 202, 202);
+    height: 60px;
+    display: flex;
+    width: auto;
+    text-align: centre;
+    /* -webkit-box-shadow: 0 3px 6px 0 rgba(205, 30, 30, 0.3); */
+}
+
+.brand {
+    display: inline;
+    width: 230px;
+    height: 60px;
+    position: relative;
+}
+
+.brand .brand-logo {
+    height: 65px;
+    display: flex;
+    float: right;
+}
+
+.brand .brand-logo img {
+    height: 60px;
+}
+
+.main-menu .nav {
+    background-image:url(jbsd.webp);
+    height: 60px;
+    width: 90%;
+    margin: 0 30px;
+}
+
+.main-menu .nav li {
+    /* border: 1px solid brown; */
+   
+    margin: 15px;
+    display: inline-block;
+    margin-inline: inherit;
+    background-color: rgb(166, 163, 163);
+    padding: 5px;
+    height: 20px;
+}
+
+.nav li a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    text-align: center;
+}
+.top-menu{
+    background-image: url(wallpaper.jpg);
+    float: inline-end;
+    /* border: 1px solid black; */
+}
+.top-menu .nav{
+    height: 60px;
+    width: 90%;
+    margin: 0 10px;
+}
+.top-menu .nav li {
+    /* border: 1px solid brown; */
+    border-radius: 5px;
+    margin: 20px ;
+    display: inline-block;
+    margin-inline:10px;
+    background-color: rgb(62, 131, 174);
+}
+.top-menu .nav li a{
+    padding: 5px 6px;
+    margin-top: 0;
+    height: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav a:hover{
+    color: gold;
+    text-decoration: underline;
+}
